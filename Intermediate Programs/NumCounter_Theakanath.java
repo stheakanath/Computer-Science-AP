@@ -1,8 +1,13 @@
 //Sony Theakanath
+//Arrays-Asg2: Num Counter
 
 import java.util.Scanner;
 import java.util.ArrayList;
 
+/**
+	This is the tester class. It asks the user and gives the certain
+	assignment from the book according to user input. 
+*/
 public class NumCounter_Theakanath
 {
 	public static void main (String[]args)
@@ -21,14 +26,20 @@ public class NumCounter_Theakanath
 			System.out.println("Launching Assignment 7.2: Counter from -25 to 25");
 			System.out.println("Enter the numbers seperated by a comma. NO SPACES. EX: 5,3,1,3,21,5,1,2,12,4,1,21,4,1,2,4");
 			String listofnumbers = scan.nextLine();
-			Nums sevenpointotwo = new Nums(listofnumbers);
-			sevenpointtwo.counter();
+			Nums sevenpointtwo = new Nums(listofnumbers);
+			sevenpointtwo.negcounter();
 		} else {
 			System.out.println("Not valid entry. Closing Program");
 		}
 	}
 }
 
+/**
+	Nums has two parts each main method is javadoced. Refer to those
+	for more information. This class basically takes an input and 
+	counts how many of each occurrence is there. And this all prints 
+	everything.
+*/
 class Nums
 {
 	//7.1 Vars
@@ -49,9 +60,16 @@ class Nums
 		{
 			counter[x] = x + "";
 		}
+		negcounter = new String[51];
+		for (int y = 0; y < negcounter.length; y++)
+		{
+			negcounter[y] = (y-25) + "";
+		}
 	}
 	
-	//Assignment 7.1 which counts each occurrence from 0 to 50
+	/** Assignment 7.1 which counts each occurrence from 0 to 50 using
+		split arrays, occurrence arrays and a number array
+		*/
 	public void counter()
 	{
 		for(int x = 0; x < numbers.length; x++)
@@ -71,6 +89,9 @@ class Nums
 		}	
 	}
 	
+	/** Assignment 7.2. This does the exact same thing as counter()
+		 except optimized for -25 to 25
+		 */
 	public void negcounter()
 	{
 		for(int x = 0; x < numbers.length; x++)

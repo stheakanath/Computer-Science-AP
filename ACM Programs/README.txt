@@ -1,0 +1,1 @@
+These programs utilize the ACM Graphics Program. Make sure you add acm.jar so that programs run correctly.
