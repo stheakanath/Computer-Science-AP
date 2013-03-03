@@ -1,0 +1,73 @@
+#u75
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #232222;
+	position: relative;
+}
+
+#u75_align_to_page,#u76-4
+{
+	position: relative;
+}
+
+#u76-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+#u77-4
+{
+	border-style: none;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-style: italic;
+	font-family: Cambria, Georgia, Times, Times New Roman, serif;
+	position: relative;
+}
+
+#u82-4
+{
+	border-style: none;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-style: italic;
+	font-family: Cambria, Georgia, Times, Times New Roman, serif;
+	position: relative;
+}
+
+#u77-4:hover,#u82-4:hover
+{
+	background-color: transparent;
+}
+
+#u83-4
+{
+	border-style: none;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-style: italic;
+	font-family: Cambria, Georgia, Times, Times New Roman, serif;
+	position: relative;
+}
+
+#u77-4.MuseLinkActive,#u82-4.MuseLinkActive,#u83-4:hover
+{
+	background-color: transparent;
+}
+
+#u83-4.MuseLinkActive
+{
+	background-color: transparent;
+}
+
+#u77-4:hover p,#u82-4:hover p,#u83-4:hover p
+{
+	text-decoration: underline;
+}
+

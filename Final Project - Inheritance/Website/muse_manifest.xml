@@ -1,0 +1,33 @@
+<manifest alg="2" build="841" opt="false">
+  <folder name="css">
+    <file name="site_global.css" crc="503150465"/>
+    <file name="quiz.css" crc="3988145885" ref="quiz"/>
+    <file name="information.css" crc="406384721" ref="information"/>
+    <file name="index.css" crc="358070876" ref="index"/>
+    <file name="master_a-master.css" crc="253599384" ref="quiz:information:index"/>
+  </folder>
+  <folder name="scripts">
+    <folder name="1.1">
+      <file name="jquery-1.7.min.js" crc="4285342938" ref="index:information:quiz"/>
+      <file name="sprydomutils.js" crc="54905613" ref="index:information:quiz"/>
+      <file name="museutils.js" crc="3935353765" ref="index:information:quiz"/>
+      <file name="pie.js" crc="4169505556" ref="index:information:quiz"/>
+      <file name="jquery.tobrowserwidth.js" crc="4024859602" ref="index:information:quiz"/>
+    </folder>
+  </folder>
+  <folder name="images">
+    <file name="background.png" crc="211996087" ref="index:information:quiz"/>
+    <file name="u76-4.png" crc="4114079889" ref="index:information:quiz"/>
+    <file name="u97.png" crc="458605872" ref="index"/>
+    <file name="u106.png" crc="458605872" ref="index"/>
+    <file name="u108.png" crc="3848730994" ref="information"/>
+    <file name="u109.png" crc="3848730994" ref="information"/>
+    <file name="u111.png" crc="3848730994" ref="information"/>
+    <file name="u103.png" crc="3829452161" ref="quiz"/>
+    <file name="u104.png" crc="3829452161" ref="quiz"/>
+    <file name="u72-10.png" crc="3947849564" ref="index"/>
+  </folder>
+  <file name="index.html" crc="267336690" mt="1335757994265"/>
+  <file name="information.html" crc="533854866" mt="1335757994270"/>
+  <file name="quiz.html" crc="61127670" mt="1335757994273"/>
+</manifest>

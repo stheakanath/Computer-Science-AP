@@ -1,0 +1,162 @@
+html
+{
+	background: #7F7F7F url("../images/background.png") repeat left top scroll;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 500px;
+	border-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF url("../images/background.png") repeat left top;
+}
+
+#page_position_content
+{
+	margin-bottom: 62px;
+}
+
+#master-header
+{
+	width: 0.01px;
+	left: -100px;
+	position: relative;
+}
+
+#u75
+{
+	z-index: 3;
+	width: 1159px;
+	padding-bottom: 33px;
+	margin-right: -1161px;
+}
+
+#u75_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 959px;
+	left: -100px;
+}
+
+#u76-4
+{
+	z-index: 4;
+	width: 399px;
+	margin-right: -399px;
+	margin-top: 35px;
+	left: 137px;
+}
+
+#u77-4
+{
+	z-index: 8;
+	width: 43px;
+	min-height: 16px;
+	margin-right: -43px;
+	margin-top: 40px;
+	left: 736px;
+}
+
+#u82-4
+{
+	z-index: 12;
+	width: 82px;
+	min-height: 16px;
+	margin-right: -82px;
+	margin-top: 40px;
+	left: 831px;
+}
+
+#u83-4
+{
+	z-index: 16;
+	width: 34px;
+	min-height: 16px;
+	margin-right: -34px;
+	margin-top: 40px;
+	left: 965px;
+}
+
+#pu108
+{
+	width: 0.01px;
+	margin-left: 65px;
+	margin-top: 23px;
+	position: relative;
+}
+
+#u108
+{
+	z-index: 62;
+	margin-left: 11px;
+	position: relative;
+}
+
+#u107-41
+{
+	z-index: 21;
+	width: 830px;
+	min-height: 287px;
+	margin-top: 16px;
+	position: relative;
+}
+
+#pu107-40
+{
+	width: 830px;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: relative;
+	margin-right: -830px;
+}
+
+#u107,#u107-18
+{
+	text-decoration: underline;
+}
+
+#u107-2,#u107-19,#u107-34,#u107-36
+{
+	font-size: 24px;
+}
+
+#u107-3,#u107-5,#u107-6,#u107-8,#u107-9,#u107-11,#u107-13,#u107-14,#u107-16,#u107-17,#u107-20,#u107-22,#u107-23,#u107-25,#u107-27,#u107-28,#u107-30,#u107-32,#u107-33,#u107-39
+{
+	font-size: 18px;
+}
+
+#u107-37
+{
+	font-size: 24px;
+	color: #FF0000;
+}
+
+#u109
+{
+	z-index: 63;
+	position: relative;
+	width: 809px;
+	margin-right: -809px;
+	margin-top: 644px;
+	left: 11px;
+}
+
+#u111
+{
+	z-index: 64;
+	margin-left: 11px;
+	margin-top: 34px;
+	position: relative;
+}
+
+#u108_img,#u109_img,#u111_img
+{
+	display: block;
+	vertical-align: top;
+}
+
